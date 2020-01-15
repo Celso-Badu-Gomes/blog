@@ -1,0 +1,21 @@
+h1 {
+
+  border-top: 10px solid #7c7; 
+  background-color: #efe;     
+  color: #050; 
+  font-family:Arial, Helvetica, sans-serif;
+  }
+
+  h2{
+  	font-family:Arial, Helvetica, sans-serif;
+
+  }
+
+.div_1{
+	background: #BDBDBD; 
+	margin: 15px 60px 15px 60px;
+}
+
+.p_1{
+	float: right;
+}
