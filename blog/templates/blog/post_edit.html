@@ -1,0 +1,11 @@
+{% extends 'blog/base.html' %}
+
+{% block dinamico %}
+	<h1>Nova postagem</h1>
+	<form method="POST" class="post-form">{% csrf_token %}
+	{{form.as_p}}
+	<button type="submit" class="save btn bin-default">save</button>
+	</form> 
+	<input type="button" value="voltar" onClick="history.go(-1)"> 
+
+{% endblock %}

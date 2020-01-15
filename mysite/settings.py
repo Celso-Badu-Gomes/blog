@@ -25,7 +25,7 @@ SECRET_KEY = '0(s+-p3=czx53m)k$bx&su^xgjfj%2#u89&5om=p#fbqy)57wz'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['127.0.0.1', 'celso.pythonanywhere.com']
 
 
 # Application definition

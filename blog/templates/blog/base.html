@@ -1,0 +1,20 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="{% static 'css/blog.css' %}">
+</head>
+<body>
+	<div>
+		<h1>Blog do Celsinho</h1>
+	</div>
+	<a href="{% url 'post_new' %}"> Novo Post</a>
+
+	{% block dinamico %}
+	
+
+
+	{% endblock %}
+</body>
+</html>
