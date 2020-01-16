@@ -5,7 +5,12 @@
 	<div class="div_1">
 		<p class="p_1">publicado em: {{post.published_date}}</p>
 		<h2><a href="{% url 'post_detail' pk=post.pk %}">{{post.title}}</a></h2>
-		<p>{{post.text|linebreaksbr}}</p>
+		<p>{{post.text|linebreaksbr}}
+			{% if post.photo %}
+				<img src="{{post.photo.url}}" alt="..."/>
+			{% endif %}
+		</p>
+		</p>
 	</div>
 
 {% endfor %}
